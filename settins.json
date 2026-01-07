@@ -9,8 +9,9 @@
         "--background-index",
         "--compile-commands-dir=${workspaceFolder}/build",
         "--clang-tidy",
+        "--header-insertion=iwyu",
         "--completion-style=detailed",
-        "--query-driver=C:/msys64/ucrt64/bin/g++.exe" 
+        "--query-driver=C:/msys64/ucrt64/bin/clang++.exe" 
     ],
 
     "cmake.buildDirectory": "${workspaceFolder}/build",
@@ -27,5 +28,6 @@
         "C:/msys64/ucrt64/bin"
     ],
     "cmake.cmakePath": "C:/msys64/ucrt64/bin/cmake.exe",
-    "diffEditor.hideUnchangedRegions.enabled": true
+    "diffEditor.hideUnchangedRegions.enabled": true,
+    "clangd.onConfigChanged": "restart"
 }
