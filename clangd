@@ -1,0 +1,31 @@
+CompileFlags:
+  Add:
+    - "--target=x86_64-w64-windows-gnu"
+    
+  Remove:
+    - "-fmodules-ts"
+    - "-fmodule-mapper=*"
+    - "-fdeps-format*"
+    - "-fx-*"
+
+Completion:
+  ArgumentLists: Delimiters
+  CodePatterns: All
+  HeaderInsertion: IWYU
+
+
+Diagnostics:
+  UnusedIncludes: Strict
+  MissingIncludes: Strict
+
+Hover:
+  ShowAKA: true
+
+InlayHints:
+  Enabled: true
+  BlockEnd: true
+  Designators: false
+  ParameterNames: false
+  DeducedTypes: true
+  DefaultArguments: false
+  TypeNameLimit: 24
