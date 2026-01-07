@@ -1,0 +1,31 @@
+{
+    "workbench.secondarySideBar.defaultVisibility": "hidden",
+    "C_Cpp.default.compilerPath": "C:/msys64/ucrt64/bin/g++.exe",
+    "C_Cpp.autocomplete": "disabled",
+    "C_Cpp.intelliSenseEngine": "disabled",
+    "C_Cpp.errorSquiggles": "disabled",
+    "clangd.path": "C:/msys64/ucrt64/bin/clangd.exe",
+    "clangd.arguments": [
+        "--background-index",
+        "--compile-commands-dir=${workspaceFolder}/build",
+        "--clang-tidy",
+        "--completion-style=detailed",
+        "--query-driver=C:/msys64/ucrt64/bin/g++.exe" 
+    ],
+
+    "cmake.buildDirectory": "${workspaceFolder}/build",
+    "cmake.generator": "Ninja",
+    "cmake.configureOnOpen": true,
+    "git.openRepositoryInParentFolders": "never",
+    "clangd.onConfigChanged.forceEnable": true,
+    "editor.minimap.enabled": false,
+    "editor.renderWhitespace": "selection",
+    "editor.bracketPairColorization.enabled": true,
+    "files.autoSave": "afterDelay",
+    "cmake.exportCompileCommandsFile": true,
+    "cmake.additionalCompilerSearchDirs": [
+        "C:/msys64/ucrt64/bin"
+    ],
+    "cmake.cmakePath": "C:/msys64/ucrt64/bin/cmake.exe",
+    "diffEditor.hideUnchangedRegions.enabled": true
+}
